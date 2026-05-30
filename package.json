@@ -1,0 +1,19 @@
+{
+  "name": "@weiseer/api-changelog-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.weiseer/api-changelog",
+  "description": "SDK breaking-change tracker for AI agents — Anthropic/OpenAI/LangChain/Mistral SDK versions + diffs.",
+  "type": "module",
+  "bin": { "api-changelog-mcp": "./index.js" },
+  "main": "./index.js",
+  "files": ["index.js", "tracked.json", "README.md"],
+  "scripts": { "start": "node index.js" },
+  "keywords": ["mcp", "changelog", "sdk", "version", "breaking-change", "ai-agent", "weiseer"],
+  "author": "weiseer <wei@weiseer.com>",
+  "license": "Apache-2.0",
+  "repository": { "type": "git", "url": "https://github.com/weiseer/api-changelog-mcp.git" },
+  "homepage": "https://github.com/weiseer/api-changelog-mcp#readme",
+  "bugs": { "url": "https://github.com/weiseer/api-changelog-mcp/issues" },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^0.6.0" }
+}
